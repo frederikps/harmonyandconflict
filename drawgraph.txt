@@ -1,0 +1,9 @@
+graph harmony {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+	rankdir=LR;
+	node [shape = circle];0 [shape = circle,color="magenta",fontcolor="magenta"];1 [shape = circle,color="blue",fontcolor="blue"];"0" -- "1"[label="conflict",fontcolor="red",color="red"];
+1 [shape = circle,color="blue",fontcolor="blue"];2 [shape = circle,color="magenta",fontcolor="magenta"];"1" -- "2"[label="conflict",fontcolor="red",color="red"];
+0 [shape = circle,color="magenta",fontcolor="magenta"];2 [shape = circle,color="blue",fontcolor="blue"];"0" -- "2"[label="conflict",fontcolor="red",color="red"];
+}

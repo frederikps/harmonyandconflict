@@ -1,9 +1,0 @@
-graph harmony {
-	fontname="Helvetica,Arial,sans-serif"
-	node [fontname="Helvetica,Arial,sans-serif"]
-	edge [fontname="Helvetica,Arial,sans-serif"]
-	rankdir=LR;
-	node [shape = circle];"0" -- "1"[label="conflict",fontcolor="red",color="red"];
-"1" -- "2"[label="conflict",fontcolor="red",color="red"];
-"0" -- "2"[label="conflict",fontcolor="red",color="red"];
-}

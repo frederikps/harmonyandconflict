@@ -10,7 +10,7 @@ public class drawgraph {
 		int n = s.nextInt();
 		int m = s.nextInt();
 		try {
-			FileWriter myWriter = new FileWriter("harmony.txt");
+			FileWriter myWriter = new FileWriter("drawgraph.txt");
 			myWriter.write("graph harmony {\n" + //
 					"\tfontname=\"Helvetica,Arial,sans-serif\"\n" + //
 					"\tnode [fontname=\"Helvetica,Arial,sans-serif\"]\n" + //
@@ -22,10 +22,10 @@ public class drawgraph {
 				int v = s.nextInt();
 				String c;
 				if (s.nextInt() == 1) {
-
+					
 					c = "[label=\"conflict\",fontcolor=\"red\",color=\"red\"]";
 				} else {
-
+					
 					c = "[label=\"harmony\",fontcolor=\"blue\",color=\"blue\"]";
 				}
 				myWriter.write("\"" + u + "\" -- \"" + v + "\"" + c + ";\n");

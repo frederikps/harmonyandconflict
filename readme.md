@@ -1,7 +1,4 @@
-<img src="./output/harmony1.png"/>
-
-<img src="./output/harmony2.png"/>
-
-<img src="./output/harmony3.png"/>
-
-<img src="./output/harmony4.png"/>
+<img src="./output/1.in.png"/>
+<img src="./output/2.in.png"/>
+<img src="./output/3.in.png"/>
+<img src="./output/4.in.png"/>
